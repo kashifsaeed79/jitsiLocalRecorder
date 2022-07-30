@@ -32,10 +32,10 @@ Load `getDisplayMedia.html` to:
  <!--#include virtual="static/recorder.html" -->
  
  like:
- 
+ ```
   <body>
     <!--#include virtual="body.html" -->
     <div id="react"></div>
     <!--#include virtual="static/recorder.html" -->
   </body>
- 
+ ```
