@@ -27,5 +27,15 @@ Load `getDisplayMedia.html` to:
  1. Demonstrate how getDisplayMedia ignores user constraints 
  1. Check if you can capture audio (currently only Chrome for some user selections)
  
+ Add this line before </body> tag
  
+ <!--#include virtual="static/recorder.html" -->
+ 
+ like:
+ 
+  <body>
+    <!--#include virtual="body.html" -->
+    <div id="react"></div>
+    <!--#include virtual="static/recorder.html" -->
+  </body>
  
